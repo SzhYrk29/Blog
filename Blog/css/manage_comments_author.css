@@ -1,0 +1,65 @@
+#main_div {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav_admin_panel {
+    display: flex;
+    width: 25%;
+    padding: 10px;
+}
+
+main {
+    width: 70%;
+    position: absolute;
+    left: 15%;
+}
+
+h2 {
+    font-family: "Roboto Light", serif;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.users_table {
+    font-family: "Roboto Light", serif;
+    table-layout: fixed;
+    width: 60%;
+    border-collapse: collapse;
+    border: 3px #1e1e1e;
+}
+
+thead, tbody, th, td {
+    font-family: "Roboto Light", serif;
+    background-color: #cccccc;
+}
+
+th, td {
+    padding: 10px;
+}
+
+form {
+    display: inline;
+}
+
+form input[type='submit'] {
+    margin: 0;
+}
+
+thead th:nth-child(1) {
+    width: 20%;
+}
+
+thead th:nth-child(2) {
+    width: 40%;
+}
+
+thead th:nth-child(3) {
+    width: 20%;
+}
+
+thead th:nth-child(4) {
+    width: 20%;
+}
